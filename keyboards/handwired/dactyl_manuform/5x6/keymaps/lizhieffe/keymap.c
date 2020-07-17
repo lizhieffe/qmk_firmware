@@ -84,8 +84,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      CHROME_RIGHT_TAB, KC_Z  , KC_X  , KC_C  , KC_V  , KC_B  ,                          KC_N  , KC_M  ,KC_COMM,KC_DOT ,KC_SLSH,KC_BSLASH,
                       GMAIL_DELETE,KC_LALT,                                                       KC_LEFT, KC_RIGHT,
                                       MT(MOD_LGUI,KC_ESC),KC_LCTL,                        KC_SPC,LT(_RAISE, KC_ENT),
-                                      KC_BSPC,KC_LSFT,                         KC_BSPC,LT(_LOWER, KC_TAB),
-                                      KC_GRV, CHROME_RIGHT_TAB,                        KC_DEL,KC_RBRC
+                                      RAISE,KC_LSFT,                         KC_BSPC,LT(_LOWER, KC_TAB),
+                                      LOWER, CHROME_RIGHT_TAB,                        KC_DEL,KC_RBRC
   ),
 
   [_RAISE] = LAYOUT_5x6(
